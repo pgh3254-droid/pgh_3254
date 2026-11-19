@@ -1,0 +1,47 @@
+{
+  "packageId": "app.bibleinsight.twa",
+  "host": "bibleinsight.app",
+  "name": "BIBLE INSIGHT — 한국어 성경·매일 큐티",
+  "launcherName": "성경 인사이트",
+  "display": "standalone",
+  "themeColor": "#1E3A8A",
+  "themeColorDark": "#121110",
+  "navigationColor": "#FAF8F4",
+  "navigationColorDark": "#121110",
+  "navigationDividerColor": "#E7E5E4",
+  "navigationDividerColorDark": "#292524",
+  "backgroundColor": "#FAF8F4",
+  "enableNotifications": false,
+  "startUrl": "/",
+  "iconUrl": "/pwa-512x512.png",
+  "maskableIconUrl": "/pwa-maskable-512x512.png",
+  "monochromeIconUrl": "/pwa-192x192.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "./android.keystore",
+    "alias": "bibleinsight"
+  },
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [
+    {
+      "name": "매일 큐티·말씀카드",
+      "shortName": "매일 큐티",
+      "url": "/",
+      "chosenIconUrl": "/pwa-192x192.png"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "/",
+  "minSdkVersion": 21,
+  "orientation": "any",
+  "fingerprints": []
+}

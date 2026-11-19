@@ -1,0 +1,6 @@
+{
+  "name": "BIBLE INSIGHT",
+  "description": "한국어 구역(KOR, 1911) 성경 66권·1,189장 탐색 및 서버 기반 AI 성경 학습 도우미 웹 앱",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

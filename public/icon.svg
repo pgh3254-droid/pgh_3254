@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#13265C" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="256" y1="108" x2="256" y2="404" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FDE68A" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#bgGrad)" />
+  <rect x="28" y="28" width="456" height="456" rx="88" stroke="#FDE68A" stroke-opacity="0.28" stroke-width="4" />
+
+  <!-- Open Scripture Book -->
+  <path
+    d="M112 162C152 146 212 148 256 172C300 148 360 146 400 162V358C360 342 300 344 256 368C212 344 152 342 112 358V162Z"
+    fill="#FAF8F4"
+    stroke="#E7DCC8"
+    stroke-width="6"
+    stroke-linejoin="round"
+  />
+  <path d="M256 172V368" stroke="#D6C7B2" stroke-width="5" />
+
+  <!-- Left page lines -->
+  <path d="M144 202H224M144 234H224M144 266H212M144 298H220" stroke="#78716C" stroke-width="8" stroke-linecap="round" opacity="0.65" />
+  <!-- Right page lines -->
+  <path d="M288 202H368M288 234H368M288 266H356M288 298H364" stroke="#78716C" stroke-width="8" stroke-linecap="round" opacity="0.65" />
+
+  <!-- Sienna Bookmark Ribbon -->
+  <path d="M318 148V242L334 226L350 242V150" fill="#7C2D12" />
+
+  <!-- Radiant Light Emblem Above Book -->
+  <path
+    d="M256 96L266 124L294 134L266 144L256 172L246 144L218 134L246 124Z"
+    fill="url(#goldGrad)"
+  />
+</svg>

@@ -1,0 +1,50 @@
+{
+  "packageId": "app.bibleinsight.twa",
+  "host": "YOUR_PUBLISHED_DOMAIN_HERE",
+  "name": "BIBLE INSIGHT — 한국어 성경·인포그래픽·매일 큐티",
+  "launcherName": "성경 인사이트",
+  "display": "standalone",
+  "themeColor": "#1E3A8A",
+  "navigationColor": "#1E3A8A",
+  "navigationColorDark": "#121110",
+  "navigationDividerColor": "#E7E5E4",
+  "backgroundColor": "#FAF8F4",
+  "enableNotifications": false,
+  "startUrl": "/",
+  "iconUrl": "https://YOUR_PUBLISHED_DOMAIN_HERE/pwa-512x512.png",
+  "maskableIconUrl": "https://YOUR_PUBLISHED_DOMAIN_HERE/pwa-maskable-512x512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "./android.keystore",
+    "alias": "bibleinsight"
+  },
+  "appVersionName": "1.2.0",
+  "appVersionCode": 3,
+  "shortcuts": [
+    {
+      "name": "매일 큐티·말씀카드",
+      "shortName": "매일 큐티",
+      "url": "/?tab=qt",
+      "chosenIconUrl": "https://YOUR_PUBLISHED_DOMAIN_HERE/pwa-192x192.png"
+    },
+    {
+      "name": "성경 인포그래픽·용어 사전",
+      "shortName": "인포그래픽",
+      "url": "/?tab=visual",
+      "chosenIconUrl": "https://YOUR_PUBLISHED_DOMAIN_HERE/pwa-192x192.png"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "fallbackType": "customtabs",
+  "features": {
+    "playBilling": {
+      "enabled": false
+    },
+    "locationDelegation": {
+      "enabled": false
+    }
+  },
+  "isChromeOSOnly": false,
+  "orientation": "default",
+  "minSdkVersion": 21
+}
